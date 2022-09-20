@@ -9,7 +9,9 @@ PyYAML>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1
 tqdm>=4.41.0
-protobuf<4.21.3
+protobuf<4.21.3 
+torch==1.9.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 
 # Logging -------------------------------------
 tensorboard>=2.4.1
